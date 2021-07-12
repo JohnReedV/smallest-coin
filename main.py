@@ -9,19 +9,19 @@ add = 0
 for number in coins:
     while final <= data:
         if final + number <= data:
-            final = final + number
+            final += number
             add = add + 1
         else:
             break
     while final <= data:
         if final + number <= data:
-            final = final + number
+            final += number
             add = add + 1
         else:
             break
     while final <= data:
         if final + number <= data:
-            final = final + number
+            final += number
             add = add + 1
         else:
             break
